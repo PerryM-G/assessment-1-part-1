@@ -1,5 +1,5 @@
 let navbar = document.getElementById("navbar");
-let navItems = document.getElementsByClassName("navItem")
+let navItems = navbar.getElementsByClassName("navItem")
 
 for(let i = 0; i < navItems.length; i++){
   navItems[i].addEventListener("click", function(){
